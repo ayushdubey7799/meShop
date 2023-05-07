@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="myCart">
+    <nav>
+      <div class="brand">
+        <a href="/">MeShop.</a>
+      </div>
+      <div class="nav-items">
+        <a href="https://ayushdubey7799.github.io/meShop/">Home</a>
+        <a href="https://ayushdubey7799.github.io/meShop/login/index.html">Login</a>
+        <a href="https://ayushdubey7799.github.io/meShop/signUp/index.html">Signup</a>
+        <a href="https://ayushdubey7799.github.io/meShop/shop/index.html">Shop</a>
+        <a href="https://ayushdubey7799.github.io/meShop/cart/index.html">My Cart</a>
+        <a href="https://ayushdubey7799.github.io/meShop/profile/index.html">Profile</a>
+      </div>
+    </nav>
+
+    <div id="main-content">
+      <!-- <h2>Cart</h2> -->
+      <div id="flex-items">
+
+      </div>
+      <div id="bill">
+        <h3 id="list">Checkout List</h3>
+        <div id="products">
+
+        </div>
+        <hr>
+        <hr>
+        <div class="product">
+          <h5>TOTAL AMOUNT:</h5>
+          <div id="totalAmount">0.00$</div>
+        </div>
+        <hr>
+        <hr>
+        <button id="checkOut" type="submit">Checkout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
