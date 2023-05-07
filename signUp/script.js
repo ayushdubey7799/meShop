@@ -39,7 +39,7 @@ document.getElementById('signUp').addEventListener('click', (e) => {
       console.log("Successfully Signed up");
       console.log("Assigning login page to window");
       alert('Successfully Signed Up');
-      window.location.assign('https://ayushdubey7799.github.io/meShop/login/login.html');
+      window.location.assign('https://ayushdubey7799.github.io/meShop/login/index.html');
 });
 
 
